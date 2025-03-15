@@ -1,4 +1,3 @@
-cmd
 ```E:.
 │   ahmadalli.vscode-nginx-conf-0.3.5.vsix
 │   anteprimorac.html-end-tag-labels-1.0.0.vsix
