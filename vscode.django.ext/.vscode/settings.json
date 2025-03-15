@@ -1,0 +1,35 @@
+{
+  "editor.fontSize": 18,
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "files.associations": {
+    "**/templates/**/*.html": "django-html"
+  },
+  // إعدادات Django وHTML
+  "[django-html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "monosans.djlint",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pyc": true
+  },
+  "commentBox.styles": {
+    "defaultStyle": {
+      "commentStartToken": "",
+      "commentEndToken": "##",
+      "leftEdgeToken": "# ",
+      "rightEdgeToken": " #",
+      "topEdgeToken": "#",
+      "bottomEdgeToken": "#",
+      "topRightToken": "##",
+      "bottomLeftToken": "##"
+    }
+  }
+}
